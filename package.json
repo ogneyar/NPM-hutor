@@ -1,0 +1,14 @@
+{
+  "name": "hutor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Ogneyar",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
