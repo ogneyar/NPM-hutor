@@ -4,4 +4,4 @@
 */
 const hutor = require('./index');
 
-hutor();
+hutor(__dirname + '/index.html');

@@ -1,3 +1,3 @@
 const hutor = require('hutor');
 
-hutor();
+hutor(__dirname + '/index.html');
