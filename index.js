@@ -12,5 +12,5 @@ const port = process.env.PORT || 8888;
 module.exports = (index = __dirname + '/index.html', p = port) => {
     express().use(express.static('/'))
     .get('*', (req, res) => res.sendFile(index))
-    .listen(p, () => console.log(`Starting server. Listening on ${ p }`));
+    .listen(p, () => console.log(`Server started on http://localhost:${p}`));
 }
